@@ -1,4 +1,6 @@
 # AspNetWebApi
-ASP.NET WebAPI gotchas
+ASP.NET WebAPI + Swashbuckle
+
+Tips & Tricks and stuff
 
 Deployed to http://aspnetwebapi.azurewebsites.net/

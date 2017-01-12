@@ -124,11 +124,27 @@
     <Compile Include="Controllers\Partial2Controller.cs" />
     <Compile Include="Controllers\NamespaceTest\NamespaceTwo\TestController.cs" />
     <Compile Include="Controllers\Partial1Controller.cs" />
+    <Compile Include="Controllers\PrefixTest\Prefix1Controller.cs" />
+    <Compile Include="Controllers\PrefixTest\Prefix2Controller.cs" />
+    <Compile Include="Controllers\PrefixTest\PrefixBaseApiController.cs" />
     <Compile Include="Controllers\SameRoutePrefix2Controller.cs" />
     <Compile Include="Controllers\SameRoutePrefix1Controller.cs" />
     <Compile Include="Controllers\NamespaceTest\NamespaceOne\TestController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="SwashbuckleExtensions\Annotations\SwaggerRequiredAttribute.cs" />
+    <Compile Include="SwashbuckleExtensions\Annotations\SwaggerResponseHeaderAttribute.cs" />
+    <Compile Include="SwashbuckleExtensions\DocumentFilters\AppendVersionToBasePath.cs" />
+    <Compile Include="SwashbuckleExtensions\Extensions.cs" />
+    <Compile Include="SwashbuckleExtensions\OperationFilters\AddAuthorizationHeaderParameterOperationFilter.cs" />
+    <Compile Include="SwashbuckleExtensions\OperationFilters\ApplySwaggerResponseHeaderAttributes.cs" />
+    <Compile Include="SwashbuckleExtensions\OperationFilters\RemoveNotAuthorizedAttributeWhenAnonymousFilter.cs" />
+    <Compile Include="SwashbuckleExtensions\SwaggerProviders\CachedSwaggerProvider.cs" />
+    <Compile Include="WebApiExtensions\Configuration\ControllerPrefixCollection.cs" />
+    <Compile Include="WebApiExtensions\Configuration\ControllerPrefixConfiguration.cs" />
+    <Compile Include="WebApiExtensions\Configuration\ControllerPrefixElement.cs" />
+    <Compile Include="WebApiExtensions\Extensions.cs" />
+    <Compile Include="WebApiExtensions\Providers\ControllerPrefixProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
